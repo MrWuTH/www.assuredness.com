@@ -1,0 +1,162 @@
+<div class="row bg-info padding-l-5 border-radius-5">
+    <h4>
+        {if $id}编辑{else}新增{/if}商品
+    </h4>
+</div>
+
+<div class="padding-10"></div>
+
+<ul class="nav nav-pills row">
+    <li role="presentation" class="bg-success border-radius-5 active"><a href="#product-basic-info" data-toggle="tab">基础信息</a></li>
+    <li role="presentation" class="bg-success border-radius-5"><a href="#product-basic-main" data-toggle="tab">商品主图</a></li>
+    <li role="presentation" class="bg-success border-radius-5"><a href="#product-basic-attach" data-toggle="tab">商品附图</a></li>
+</ul>
+
+<div class="tab-content">
+    <div class="row padding-tb-10 tab-pane fade in active" id="product-basic-info">
+        <form action="/index/Index/input" method="post">
+            <table class="table table-bordered">
+                <tr>
+                    <div class="input-group padding-tb-5">
+                        <span class="input-group-addon must" id="basic-classify">商品分类</span>
+                        <select name="form[classify]" value="{$form['classify']}" class="form-control input-custom">
+                            <option value="0" class="bg-danger font-16">Select</option>
+                            <option value="1" class="bg-success font-16" {if $form['classify'] == '1'}selected="selected"{/if}>春装</option>
+                            <option value="2" class="bg-success font-16">夏装</option>
+                            <option value="3" class="bg-success font-16">秋装</option>
+                            <option value="4" class="bg-success font-16">冬装</option>
+                        </select>
+                    </div>
+                    {if $errors['classify']}
+                        <div class="triangle-up margin-l-3"></div>
+                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['classify']}</div>
+                    {/if}
+                </tr>
+                <tr>
+                    <div class="input-group padding-tb-5">
+                        <span class="input-group-addon must" id="basic-name">商品名称</span>
+                        <input type="text" class="form-control input-custom" name="form[name]" value="{$form['name']}" placeholder="Name" aria-describedby="basic-name">
+                    </div>
+                    {if $errors['name']}
+                        <div class="triangle-up margin-l-3"></div>
+                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['name']}</div>
+                    {/if}
+                </tr>
+                <tr>
+                    <div class="input-group padding-tb-5">
+                        <div class="input-group-addon must" id="basic-description">商品描述</div>
+                        <input type="text" class="form-control input-custom" name="form[description]" value="{$form['description']}" placeholder="Description" aria-describedby="basic-description">
+                    </div>
+                    {if $errors['description']}
+                        <div class="triangle-up margin-l-3"></div>
+                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['description']}</div>
+                    {/if}
+                </tr>
+                <tr>
+                    <div class="input-group padding-tb-5">
+                        <span class="input-group-addon must" id="basic-amount">商品金额</span>
+                        <input type="text" class="form-control input-custom" name="form[amount]" value="{$form['amount']}" placeholder="0.00" aria-describedby="basic-amount">
+                    </div>
+                    {if $errors['amount']}
+                        <div class="triangle-up margin-l-3"></div>
+                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['amount']}</div>
+                    {/if}
+                </tr>
+                <tr>
+                    <div class="input-group padding-tb-5">
+                        <span class="input-group-addon must" id="basic-amount">商品库存</span>
+                        <input type="number" class="form-control input-custom" name="form[inventory]" value="{$form['inventory']}" placeholder="0" aria-describedby="basic-amount">
+                    </div>
+                    {if $errors['inventory']}
+                        <div class="triangle-up margin-l-3"></div>
+                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['inventory']}</div>
+                    {/if}
+                </tr>
+                <tr>
+                    <div class="margin-b-0 form-group padding-tb-5" id="norm-container">
+                        <div class="input-group">
+                            <div class="input-group-addon">商品规格</div>
+                            <input type="text" name="form[norm][]" class="form-control input-custom" placeholder="Norm">
+                            <span class="input-group-addon" onclick="addNorm()">
+                                <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                            </span>
+                        </div>
+                    </div>
+                </tr>
+            </table>
+            <div class="text-right"><input class="btn btn-primary" type="submit" value="SAVE"/></div>
+        </form>
+    </div>
+    
+    <div class="row padding-tb-10 tab-pane fade" id="product-basic-main">
+        {if $id}
+            <form action="/index/Index/input" method="post" enctype="mutipart/form-data">
+                <table class="table table-bordered">
+                    <tr>
+                        <div class="input-group padding-tb-5">
+                            <span class="input-group-addon" id="basic-main-file">商品主图</span>
+                            <div class="table-bordered padding-10">
+                                <img src="__STATIC__/image/catapult.gif" id="main-btn" class="img-custom" />
+                            </div>
+                            <input type="file" name="form[file]" id="main-file" class="hidden" onchange="changeMainPicture(this)" accept="image/jpg, image/jpeg, image/png, image/gif" />
+                        </div>
+                        <div class="input-group padding-tb-5 hide">
+                            <span class="input-group-addon" id="basic-main-file">图片预览</span>
+                            <img style="max-height: 400px; max-width: 200px;" src="__STATIC__/image/catapult.gif"/>
+                        </div>
+                    </tr>
+                    
+                    <tr>
+                        <div class="input-group padding-tb-5">
+                            <span class="input-group-addon" id="basic-main-file">商品详细</span>
+                            <div class="btn btn-default form-control">选择图片</div>
+                            <input type="file" name="" value="" class="hide"/>
+                        </div>
+                    </tr>
+                </table>
+            </form>
+        {else}
+            <div class="bg-danger padding-10 border-radius-5">
+                <span>** 请先保存商品基础信息</span>
+            </div>
+        {/if}
+    </div>
+    
+    <div class="row padding-tb-10 tab-pane fade" id="product-basic-attach">
+        333333333333
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        $("#main-btn").click(function() {
+            $("#main-file").trigger('click');
+        })
+    })
+
+    /* 更改主图 */
+    function changeMainPicture(_this)
+    {
+        let file_info = $(_this)[0].files[0];
+        console.log(file_info);
+    }
+
+    /* 添加规格 */
+    function addNorm()
+    {
+        let norm_str =   '  <div class="input-group padding-t-5">   '
+                        +'      <div class="input-group-addon" style="background: #FFFFFF; border: none;"><div style="width: 56px;"></div></div>   '
+                        +'      <input type="text" name="form[norm][]" class="form-control" placeholder="Norm"> '
+                        +'      <span class="input-group-addon" onclick="removeNorm(this)">    '
+                        +'          <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>    '
+                        +'      </span> '
+                        +'  </div>  ';
+        $("#norm-container").append(norm_str);
+    }
+
+    /* 删除规格 */
+    function removeNorm(_this)
+    {
+        $($(_this).parent()).remove();
+    }
+</script>
