@@ -14,22 +14,22 @@
 
 <div class="tab-content">
     <div class="row padding-tb-10 tab-pane fade in active" id="product-basic-info">
-        <form action="/index/Index/input" method="post">
+        <form action="/index/Product/edit" method="post">
             <table class="table table-bordered">
                 <tr>
                     <div class="input-group padding-tb-5">
                         <span class="input-group-addon must" id="basic-classify">商品分类</span>
-                        <select name="form[classify]" value="{$form['classify']}" class="form-control input-custom">
+                        <select name="form[category_id]" value="{$form['category_id']}" class="form-control input-custom">
                             <option value="0" class="bg-danger font-16">Select</option>
-                            <option value="1" class="bg-success font-16" {if $form['classify'] == '1'}selected="selected"{/if}>春装</option>
+                            <option value="1" class="bg-success font-16" {if $form['category_id'] == '1'}selected="selected"{/if}>春装</option>
                             <option value="2" class="bg-success font-16">夏装</option>
                             <option value="3" class="bg-success font-16">秋装</option>
                             <option value="4" class="bg-success font-16">冬装</option>
                         </select>
                     </div>
-                    {if $errors['classify']}
+                    {if $errors['category_id']}
                         <div class="triangle-up margin-l-3"></div>
-                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['classify']}</div>
+                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['category_id']}</div>
                     {/if}
                 </tr>
                 <tr>
@@ -55,11 +55,11 @@
                 <tr>
                     <div class="input-group padding-tb-5">
                         <span class="input-group-addon must" id="basic-amount">商品金额</span>
-                        <input type="text" class="form-control input-custom" name="form[amount]" value="{$form['amount']}" placeholder="0.00" aria-describedby="basic-amount">
+                        <input type="text" class="form-control input-custom" name="form[price]" value="{$form['price']}" placeholder="0.00" aria-describedby="basic-amount">
                     </div>
-                    {if $errors['amount']}
+                    {if $errors['price']}
                         <div class="triangle-up margin-l-3"></div>
-                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['amount']}</div>
+                        <div class="bg-danger border-radius-5 padding-5 text-center">{$errors['price']}</div>
                     {/if}
                 </tr>
                 <tr>
@@ -74,13 +74,37 @@
                 </tr>
                 <tr>
                     <div class="margin-b-0 form-group padding-tb-5" id="norm-container">
-                        <div class="input-group">
-                            <div class="input-group-addon">商品规格</div>
-                            <input type="text" name="form[norm][]" class="form-control input-custom" placeholder="Norm">
-                            <span class="input-group-addon" onclick="addNorm()">
-                                <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-                            </span>
-                        </div>
+                        {if !$form.norm}
+                            <!--新增-->
+                            <div class="input-group">
+                                <div class="input-group-addon">商品规格</div>
+                                <input type="text" name="form[norm][]" class="form-control input-custom" placeholder="Norm">
+                                <span class="input-group-addon" onclick="addNorm()">
+                                    <span class="glyphicon glyphicon-plus-sign text-primary" aria-hidden="true"></span>
+                                </span>
+                            </div>
+                        {else}
+                            <!--编辑-->
+                            {foreach name="form.norm" item="item" key="key"}
+                                {if $key == 0}
+                                    <div class="input-group">
+                                        <div class="input-group-addon">商品规格</div>
+                                        <input type="text" name="form[norm][{$key}]" value="{$item}" class="form-control input-custom" placeholder="Norm">
+                                        <span class="input-group-addon" onclick="addNorm()">
+                                            <span class="glyphicon glyphicon-plus-sign text-primary" aria-hidden="true"></span>
+                                        </span>
+                                    </div>
+                                {else}
+                                    <div class="input-group padding-t-5">
+                                        <div class="input-group-addon" style="background: #FFFFFF; border: none;"><div style="width: 56px;"></div></div>
+                                        <input type="text" name="form[norm][{$key}]" value="{$item}" class="form-control" placeholder="Norm">
+                                        <span class="input-group-addon" onclick="removeNorm(this)">
+                                            <span class="glyphicon glyphicon-remove-sign text-danger" aria-hidden="true"></span>
+                                        </span>
+                                    </div>
+                                {/if}
+                            {/foreach}
+                        {/if}
                     </div>
                 </tr>
             </table>
@@ -123,7 +147,37 @@
     </div>
     
     <div class="row padding-tb-10 tab-pane fade" id="product-basic-attach">
-        333333333333
+        {if $id}
+            <form action="/index/Index/input" method="post" enctype="mutipart/form-data">
+                <table class="table table-bordered">
+                    <tr>
+                        <div class="input-group padding-tb-5">
+                            <span class="input-group-addon" id="basic-main-file">商品主图</span>
+                            <div class="table-bordered padding-10">
+                                <img src="__STATIC__/image/catapult.gif" id="main-btn" class="img-custom" />
+                            </div>
+                            <input type="file" name="form[file]" id="main-file" class="hidden" onchange="changeMainPicture(this)" accept="image/jpg, image/jpeg, image/png, image/gif" />
+                        </div>
+                        <div class="input-group padding-tb-5 hide">
+                            <span class="input-group-addon" id="basic-main-file">图片预览</span>
+                            <img style="max-height: 400px; max-width: 200px;" src="__STATIC__/image/catapult.gif"/>
+                        </div>
+                    </tr>
+                    
+                    <tr>
+                        <div class="input-group padding-tb-5">
+                            <span class="input-group-addon" id="basic-main-file">商品详细</span>
+                            <div class="btn btn-default form-control">选择图片</div>
+                            <input type="file" name="" value="" class="hide"/>
+                        </div>
+                    </tr>
+                </table>
+            </form>
+        {else}
+            <div class="bg-danger padding-10 border-radius-5">
+                <span>** 请先保存商品基础信息</span>
+            </div>
+        {/if}
     </div>
 </div>
 
@@ -148,7 +202,7 @@
                         +'      <div class="input-group-addon" style="background: #FFFFFF; border: none;"><div style="width: 56px;"></div></div>   '
                         +'      <input type="text" name="form[norm][]" class="form-control" placeholder="Norm"> '
                         +'      <span class="input-group-addon" onclick="removeNorm(this)">    '
-                        +'          <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>    '
+                        +'          <span class="glyphicon glyphicon-remove-sign text-danger" aria-hidden="true"></span>    '
                         +'      </span> '
                         +'  </div>  ';
         $("#norm-container").append(norm_str);

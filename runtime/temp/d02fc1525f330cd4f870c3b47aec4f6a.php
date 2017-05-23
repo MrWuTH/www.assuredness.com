@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:90:"D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\index.html";i:1492588309;s:85:"D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\layout.html";i:1495447912;}*/ ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -30,7 +31,7 @@
             <div class="navbar container">
                 <div class="navbar-header pull-left">
                     <a href="/index" class="navbar-brand">
-                          {$title}
+                          <?php echo $title; ?>
                     </a>
                 </div>
             </div>
@@ -74,7 +75,7 @@
                     <div class="row">
                         <div class="col-xs-1"></div>
                         <div class="col-xs-11">
-                            {__CONTENT__}
+                            
                         </div>
                     </div>
                 </div>

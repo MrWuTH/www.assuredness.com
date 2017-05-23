@@ -1,0 +1,3868 @@
+[ 2017-05-18T01:38:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.029193s][吞吐率：34.25req/s] [内存消耗：1,447.75kb] [文件加载：35]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '颜色',
+    'description' => '我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦',
+    'amount' => '1.2',
+    'inventory' => '2',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 颜色
+    [description] => 我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦
+    [amount] => 1.2
+    [inventory] => 2
+    [norm] => 
+)
+
+[ info ] [ VIEW ] D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\input.html [ array (
+  0 => 'title',
+  1 => 'id',
+  2 => 'errors',
+  3 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T01:38:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.025966s][吞吐率：38.51req/s] [内存消耗：1,446.45kb] [文件加载：35]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '颜色',
+    'description' => '我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦',
+    'amount' => '1.2',
+    'inventory' => '2',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\input.html [ array (
+  0 => 'title',
+  1 => 'id',
+  2 => 'errors',
+  3 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T01:40:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.049201s][吞吐率：20.32req/s] [内存消耗：1,479.32kb] [文件加载：36]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '颜色',
+    'description' => '我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦',
+    'amount' => '1.2',
+    'inventory' => '2',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 颜色
+    [description] => 我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦
+    [amount] => 1.2
+    [inventory] => 2
+    [norm] => 
+)
+
+[ info ] [ VIEW ] D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\input.html [ array (
+  0 => 'title',
+  1 => 'id',
+  2 => 'errors',
+  3 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T01:40:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.023184s][吞吐率：43.13req/s] [内存消耗：1,400.20kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '颜色',
+    'description' => '我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦',
+    'amount' => '1.2',
+    'inventory' => '2',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 颜色
+    [description] => 我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦
+    [amount] => 1.2
+    [inventory] => 2
+    [norm] => 
+)
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T01:54:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.200555s][吞吐率：4.99req/s] [内存消耗：1,498.34kb] [文件加载：38]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '颜色',
+    'description' => '我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦',
+    'amount' => '1.2',
+    'inventory' => '2',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 颜色
+    [description] => 我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦
+    [amount] => 1.2
+    [inventory] => 2
+    [norm] => 
+)
+
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Product' not found[D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php:85]
+
+---------------------------------------------------------------
+[ 2017-05-18T01:56:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.191420s][吞吐率：5.22req/s] [内存消耗：2,474.18kb] [文件加载：45]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '颜色',
+    'description' => '我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦',
+    'amount' => '1.2',
+    'inventory' => '2',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 颜色
+    [description] => 我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦
+    [amount] => 1.2
+    [inventory] => 2
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002696s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.016267s ]
+[ sql ] [ SQL ] INSERT INTO `tb_product` (`name` , `description`) VALUES ('颜色' , '我是描述哦 我是描述哦我是描述哦我是描述哦我是描述哦我是描述哦') [ RunTime:0.001562s ]
+[ error ] [0]类的属性不存在:app\index\model\Product->id[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\Model.php:463]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:00:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.034060s][吞吐率：29.36req/s] [内存消耗：1,277.12kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\input.html [ array (
+  0 => 'title',
+  1 => 'id',
+  2 => 'errors',
+  3 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:00:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.031819s][吞吐率：31.43req/s] [内存消耗：1,402.66kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:01:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.025933s][吞吐率：38.56req/s] [内存消耗：1,402.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:01:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.024027s][吞吐率：41.62req/s] [内存消耗：1,402.54kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:01:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.024270s][吞吐率：41.20req/s] [内存消耗：1,402.58kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:01:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.022643s][吞吐率：44.16req/s] [内存消耗：1,402.58kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:02:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.087680s][吞吐率：11.41req/s] [内存消耗：2,493.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011735s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.015089s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:02:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.076553s][吞吐率：13.06req/s] [内存消耗：2,493.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.016276s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:02:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.030432s][吞吐率：32.86req/s] [内存消耗：1,276.39kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\input.html [ array (
+  0 => 'title',
+  1 => 'id',
+  2 => 'errors',
+  3 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:04:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.744927s][吞吐率：1.34req/s] [内存消耗：2,493.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002237s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.013925s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:04:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.069761s][吞吐率：14.33req/s] [内存消耗：2,493.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003641s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.015482s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:04:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.086883s][吞吐率：11.51req/s] [内存消耗：2,493.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002065s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.014950s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:04:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.064284s][吞吐率：15.56req/s] [内存消耗：1,276.16kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,zh-CN;q=0.8,zh;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\input.html [ array (
+  0 => 'title',
+  1 => 'id',
+  2 => 'errors',
+  3 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T02:04:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.070918s][吞吐率：14.10req/s] [内存消耗：2,492.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,zh-CN;q=0.8,zh;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '124',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '1',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 1
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001076s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.015984s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:05:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.083339s][吞吐率：12.00req/s] [内存消耗：2,492.61kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,zh-CN;q=0.8,zh;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '124',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '1',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 1
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001218s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.016169s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:06:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.075419s][吞吐率：13.26req/s] [内存消耗：2,492.93kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.016154s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:06:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.107920s][吞吐率：9.27req/s] [内存消耗：2,492.93kb] [文件加载：48]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001367s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.016803s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:10+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.106636s][吞吐率：9.38req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002755s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.029830s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.098658s][吞吐率：10.14req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001157s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.016738s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.100640s][吞吐率：9.94req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001082s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.022708s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.087988s][吞吐率：11.37req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.017998s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.103846s][吞吐率：9.63req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.020271s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.101049s][吞吐率：9.90req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001368s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.008450s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.096623s][吞吐率：10.35req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001148s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.018198s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:08:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.107256s][吞吐率：9.32req/s] [内存消耗：2,470.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.018545s ]
+[ error ] [0]数据表字段不存在:[classify][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.097580s][吞吐率：10.25req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001296s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.017713s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:36+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.098329s][吞吐率：10.17req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001232s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.018478s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:36+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.079746s][吞吐率：12.54req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001309s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.007577s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.085503s][吞吐率：11.70req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.015885s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.091616s][吞吐率：10.92req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001459s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.019295s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.122067s][吞吐率：8.19req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001338s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.012137s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.147027s][吞吐率：6.80req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001282s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.036656s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.083162s][吞吐率：12.02req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000970s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.005840s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.159899s][吞吐率：6.25req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001304s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.011540s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.135010s][吞吐率：7.41req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.015633s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.089421s][吞吐率：11.18req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001231s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.010230s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.182516s][吞吐率：5.48req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001534s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.036212s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.152060s][吞吐率：6.58req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001495s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.012809s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.115881s][吞吐率：8.63req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001318s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.013236s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.095020s][吞吐率：10.52req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.008824s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.205673s][吞吐率：4.86req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001309s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.024718s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.245384s][吞吐率：4.08req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001625s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.010824s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.210095s][吞吐率：4.76req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001211s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.022394s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.106180s][吞吐率：9.42req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001210s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.009553s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.181589s][吞吐率：5.51req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003894s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.027159s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.131536s][吞吐率：7.60req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.016755s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.160975s][吞吐率：6.21req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001135s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.014105s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.078348s][吞吐率：12.76req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001083s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.006570s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.174567s][吞吐率：5.73req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001404s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.027887s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.125184s][吞吐率：7.99req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001394s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.018469s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.083451s][吞吐率：11.98req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001836s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.007700s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.172895s][吞吐率：5.78req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002015s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.021056s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.126315s][吞吐率：7.92req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001154s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.011057s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.097386s][吞吐率：10.27req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001170s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.008607s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.206657s][吞吐率：4.84req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.050989s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.112387s][吞吐率：8.90req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002198s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.005807s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.093385s][吞吐率：10.71req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000893s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.006051s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:11:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.084460s][吞吐率：11.84req/s] [内存消耗：2,471.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001128s ] mysql:dbname=www.assuredness.local;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_product` [ RunTime:0.011578s ]
+[ error ] [0]数据表字段不存在:[amount][D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-05-18T02:29:06+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.107432s][吞吐率：9.31req/s] [内存消耗：2,437.49kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant UNIFYN - assumed 'UNIFYN'[D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php:94]
+
+---------------------------------------------------------------
+[ 2017-05-18T03:10:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.659545s][吞吐率：1.52req/s] [内存消耗：2,437.49kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.assuredness.local',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2086560768',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '123',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 123
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant UNIFY_N - assumed 'UNIFY_N'[D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php:94]
+
+---------------------------------------------------------------
+[ 2017-05-18T09:51:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：1.123691s][吞吐率：0.89req/s] [内存消耗：2,437.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,zh-CN;q=0.8,zh;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '124',
+  'referer' => 'http://www.assuredness.local/index/Index/input',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'form' => 
+  array (
+    'classify' => '1',
+    'name' => '1',
+    'description' => '1',
+    'amount' => '1',
+    'inventory' => '1',
+    'norm' => 
+    array (
+      0 => '',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] IndexController/input($form):Array
+(
+    [classify] => 1
+    [name] => 1
+    [description] => 1
+    [amount] => 1
+    [inventory] => 1
+    [norm] => 
+)
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant UNIFY_N - assumed 'UNIFY_N'[D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php:94]
+
+---------------------------------------------------------------
+[ 2017-05-18T09:55:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/Index/input
+[ log ] www.assuredness.local/index/Index/input [运行时间：0.528994s][吞吐率：1.89req/s] [内存消耗：1,276.22kb] [文件加载：33]
+[ info ] [ LANG ] D:\WorkPlace\5.Linux\www.assuredness.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'input',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.assuredness.local',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,zh-CN;q=0.8,zh;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->input[ D:\WorkPlace\5.Linux\www.assuredness.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\WorkPlace\5.Linux\www.assuredness.com\public/../application/index\view\index\input.html [ array (
+  0 => 'title',
+  1 => 'id',
+  2 => 'errors',
+  3 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
